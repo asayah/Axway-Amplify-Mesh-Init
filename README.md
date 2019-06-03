@@ -1,5 +1,13 @@
 # Axway-Amplify-Mesh-Init
 
+Axway Amplify: https://platform.axway.com/
+Axway Amplify Mesh Governance is a Solution to Govern multiple Service Meshes For a Unified Interface. 
+
+The following helm chart creates:
+- A Tls selft signed CA secret for Istio ingress gateway
+- Secrets for the Amplify Mesh Governance Service Discovery Agent and Config Sync Agent
+
+
 ## Create the needed namespaces
 ```Shell
 kubectl create namespace istio-system #if not existing
