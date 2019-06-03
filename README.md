@@ -31,7 +31,6 @@ helm install . -n apic-init --set gatewayHost=example.com
 ## If You want to use diffrents namespaces
 
 ```Shell
-git clone https://github.com/asayah/Axway-Amplify-Mesh-Init
 kubectl create namespace foo
 kubectl create namespace bar
 # If you specify gatewayHost (Optional), a self signed certificate will be created for your gateway Host. 
