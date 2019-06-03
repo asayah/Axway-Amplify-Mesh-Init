@@ -1,0 +1,8 @@
+istio:
+  namespace: istio-system
+
+apic:
+  namespace: apic-control
+
+# To create edge gateway cert, set gatewayHost var.
+#gatewayHost=exemple.com
