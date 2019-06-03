@@ -1,7 +1,7 @@
 # Axway-Amplify-Mesh-Init
 
 Axway Amplify: https://platform.axway.com/
-Axway Amplify Mesh Governance is a Solution to Govern multiple Service Meshes For a Unified Interface. 
+Axway Amplify Mesh Governance is a Solution to Govern multiple Service Meshes From a Unified Interface. 
 
 The following helm chart creates:
 - A Tls selft signed CA secret for Istio ingress gateway
