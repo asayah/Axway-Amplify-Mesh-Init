@@ -12,7 +12,7 @@ kubectl create namespace apic-control #if not exisiting
 helm install https://github.com/asayah/Axway-Amplify-Mesh-Init/releases/download/0.1/Axway-Amplify-Mesh-Init-0.1.0.tgz --set gatewayHost=foo.com
 ```
 
-## Start the init (Form github Repo)
+## Run the init (Form github Repo)
 
 ```Shell
 git clone https://github.com/asayah/Axway-Amplify-Mesh-Init
