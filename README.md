@@ -9,7 +9,7 @@ kubectl create namespace apic-control #if not exisiting
 ## Run the Init
 ```Shell
 # (Optional) If you specify gatewayHost, a self signed certificate will be created for your gateway Host.
-install https://github.com/asayah/Axway-Amplify-Mesh-Init/releases/download/0.1/Axway-Amplify-Mesh-Init-0.1.0.tgz --set gatewayHost=foo.com
+helm install https://github.com/asayah/Axway-Amplify-Mesh-Init/releases/download/0.1/Axway-Amplify-Mesh-Init-0.1.0.tgz --set gatewayHost=foo.com
 ```
 
 ## Start the init (Form github Repo)
