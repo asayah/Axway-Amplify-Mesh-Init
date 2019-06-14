@@ -36,3 +36,5 @@ kubectl create namespace bar
 # If you specify gatewayHost (Optional), a self signed certificate will be created for your gateway Host. 
 helm install https://github.com/asayah/Axway-Amplify-Mesh-Init/releases/download/0.1/Axway-Amplify-Mesh-Init-0.1.0.tgz -n apic-init --set gatewayHost=example.com --set apic.namespace=foo --set istio.namespace=bar
 ```
+
+Learn more about managing your mesh using Axway Amplify Central: https://github.com/Axway/Setup-Amplify-Mesh-Governance/wiki 
